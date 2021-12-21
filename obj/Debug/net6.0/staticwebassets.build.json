@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EolgXbrDdyIYRauffkUQ8+dNstFrWx52gI2dJYtAQc8=",
+  "Hash": "xbzmv91taa9HpV/PGvjTlpEUVH8PDlxb4Z8O7nRnTHU=",
   "Source": "ToDo",
   "BasePath": "/",
   "Mode": "Root",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "C:\\Users\\KYAW ZIN HTAT\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "ToDo",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\KYAW ZIN HTAT\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "ToDo",
       "SourceType": "Computed",
@@ -151,23 +168,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\KYAW ZIN HTAT\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "ToDo",
-      "SourceType": "Computed",
-      "ContentRoot": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\KYAW ZIN HTAT\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -6885,23 +6885,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "ToDo",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
@@ -7002,6 +6985,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "ToDo",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "G:\\users\\kyawe\\asp_net_core\\ToDo\\ToDo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

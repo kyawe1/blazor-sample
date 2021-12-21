@@ -21,9 +21,9 @@
 
 
 @code {
-    
 
-    
+
+
     public void Delete(ToDoViewModel i)
     {
         store.Remove(i);
@@ -32,12 +32,15 @@
     {
         if (editContext.Validate())
         {
-            
+
             var q=(ToDoViewModel)editContext.Model;
+
             var a=new ToDoViewModel(){
                 title=q.title,
                 completed=q.completed
             };
+            q.title = "";
+            q.completed = false;
             store.Add(a);
         }
         

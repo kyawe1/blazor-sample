@@ -6,17 +6,17 @@
       deploy-to-github-pages: 
         runs-on: ubuntu-latest
         steps:  
-          -uses: actions/checkout@v2 
-          -name: Setup .NET Core SDK
-          uses: actions/setup-dotnet@v1.9.0
-          with:
-            dotnet-version:6.0
-          -name: Commit wwwroot to GitHubPages
-          uses: JamesIves/github-pages-deploy-action@3.7.1
-          with:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-           BRANCH: gh-pages
-           FOLDER: release/wwwroot
+          - uses: actions/checkout@v2 
+          - name: Setup .NET Core SDK
+            uses: actions/setup-dotnet@v1.9.0
+            with:
+              dotnet-version: 6.0
+          - name: Commit wwwroot to GitHubPages
+            uses: JamesIves/github-pages-deploy-action@3.7.1
+            with:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             BRANCH: gh-pages
+             FOLDER: release/wwwroot
           
       
 

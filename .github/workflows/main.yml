@@ -19,6 +19,8 @@
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              BRANCH: gh-pages
              FOLDER: release/wwwroot
+          - name: Add .nojekyll file
+            run: touch release/wwwroot/.nojekyll
           
       
 

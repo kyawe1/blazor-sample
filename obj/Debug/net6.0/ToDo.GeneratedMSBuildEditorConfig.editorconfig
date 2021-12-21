@@ -11,33 +11,33 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ToDo
 build_property.RootNamespace = ToDo
-build_property.ProjectDir = G:\users\kyawe\asp_net_core\ToDo\ToDo\
+build_property.ProjectDir = g:\users\kyawe\asp_net_core\ToDo\ToDo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\users\kyawe\asp_net_core\ToDo\ToDo
+build_property.MSBuildProjectDirectory = g:\users\kyawe\asp_net_core\ToDo\ToDo
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/App.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ShowToDos.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ShowToDos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1RvRG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ToDoAdd.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ToDoAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9Eb0FkZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ToDos.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/Pages/ToDos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9Eb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/_Imports.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/users/kyawe/asp_net_core/ToDo/ToDo/Shared/MainLayout.razor]
+[g:/users/kyawe/asp_net_core/ToDo/ToDo/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2a3slabe12

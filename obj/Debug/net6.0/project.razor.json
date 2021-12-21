@@ -8,6 +8,206 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -2087795352,
+        "Kind": "Components.Component",
+        "Name": "ToDo.Shared.MainLayout",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -560410000,
+        "Kind": "Components.Component",
+        "Name": "ToDo.Shared.MainLayout",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDo.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1297596800,
+        "Kind": "Components.ChildContent",
+        "Name": "ToDo.Shared.MainLayout.Body",
+        "AssemblyName": "ToDo",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ToDo.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -117627929,
+        "Kind": "Components.ChildContent",
+        "Name": "ToDo.Shared.MainLayout.Body",
+        "AssemblyName": "ToDo",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ToDo.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ToDo.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2032689399,
+        "Kind": "Components.Component",
+        "Name": "ToDo.App",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.App"
+        }
+      },
+      {
+        "HashCode": -393143658,
+        "Kind": "Components.Component",
+        "Name": "ToDo.App",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDo.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 588794558,
+        "Kind": "Components.Component",
+        "Name": "ToDo.Pages.ToDoAdd",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoAdd"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "todo",
+            "TypeName": "ToDo.Models.ToDoViewModel",
+            "Metadata": {
+              "Common.PropertyName": "todo"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onsubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>",
+            "Metadata": {
+              "Common.PropertyName": "onsubmit",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.Pages.ToDoAdd"
+        }
+      },
+      {
+        "HashCode": -1265275936,
+        "Kind": "Components.Component",
+        "Name": "ToDo.Pages.ToDoAdd",
+        "AssemblyName": "ToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDo.Pages.ToDoAdd"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "todo",
+            "TypeName": "ToDo.Models.ToDoViewModel",
+            "Metadata": {
+              "Common.PropertyName": "todo"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onsubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>",
+            "Metadata": {
+              "Common.PropertyName": "onsubmit",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ToDo.Pages.ToDoAdd",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -370898875,
         "Kind": "Components.Component",
         "Name": "ToDo.Pages.ShowToDos",
@@ -128,206 +328,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ToDo.Pages.ToDos",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 588794558,
-        "Kind": "Components.Component",
-        "Name": "ToDo.Pages.ToDoAdd",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoAdd"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "todo",
-            "TypeName": "ToDo.Models.ToDoViewModel",
-            "Metadata": {
-              "Common.PropertyName": "todo"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "onsubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>",
-            "Metadata": {
-              "Common.PropertyName": "onsubmit",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.Pages.ToDoAdd"
-        }
-      },
-      {
-        "HashCode": -1265275936,
-        "Kind": "Components.Component",
-        "Name": "ToDo.Pages.ToDoAdd",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDo.Pages.ToDoAdd"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "todo",
-            "TypeName": "ToDo.Models.ToDoViewModel",
-            "Metadata": {
-              "Common.PropertyName": "todo"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "onsubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Forms.EditContext>",
-            "Metadata": {
-              "Common.PropertyName": "onsubmit",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.Pages.ToDoAdd",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2032689399,
-        "Kind": "Components.Component",
-        "Name": "ToDo.App",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.App"
-        }
-      },
-      {
-        "HashCode": -393143658,
-        "Kind": "Components.Component",
-        "Name": "ToDo.App",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDo.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2087795352,
-        "Kind": "Components.Component",
-        "Name": "ToDo.Shared.MainLayout",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": -560410000,
-        "Kind": "Components.Component",
-        "Name": "ToDo.Shared.MainLayout",
-        "AssemblyName": "ToDo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDo.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ToDo.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1297596800,
-        "Kind": "Components.ChildContent",
-        "Name": "ToDo.Shared.MainLayout.Body",
-        "AssemblyName": "ToDo",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "ToDo.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -117627929,
-        "Kind": "Components.ChildContent",
-        "Name": "ToDo.Shared.MainLayout.Body",
-        "AssemblyName": "ToDo",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "ToDo.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "ToDo.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

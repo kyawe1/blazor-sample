@@ -11,14 +11,19 @@
             uses: actions/setup-dotnet@v1.9.0
             with:
               dotnet-version: '6.0.x'
+          - name: Add .nojekyll file
+            run: touch release/wwwroot/.nojekyll
           - name: Publish .NET Core Project
             run: dotnet publish ToDo.csproj -c Release -o release --nologo
+          - name: Change base-tag in index.html from / to BlazorGitHubPagesDemo
+            run: sed -i 's/<base href="\/" \/>/<base href="\/blazor-sample\/" \/>/g' release/wwwroot/index.html
           - name: Commit wwwroot to GitHubPages
             uses: JamesIves/github-pages-deploy-action@3.7.1
             with:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              BRANCH: gh-pages
              FOLDER: release/wwwroot
+          
           
       
 

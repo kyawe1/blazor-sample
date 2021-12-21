@@ -812,3 +812,6 @@ G:\users\kyawe\asp_net_core\ToDo\ToDo\obj\Debug\net6.0\ToDo.csproj.CopyComplete
 G:\users\kyawe\asp_net_core\ToDo\ToDo\obj\Debug\net6.0\ToDo.dll
 G:\users\kyawe\asp_net_core\ToDo\ToDo\obj\Debug\net6.0\ref\ToDo.dll
 G:\users\kyawe\asp_net_core\ToDo\ToDo\obj\Debug\net6.0\ToDo.pdb
+G:\users\kyawe\asp_net_core\ToDo\ToDo\bin\Debug\net6.0\release\web.config
+G:\users\kyawe\asp_net_core\ToDo\ToDo\bin\Debug\net6.0\release\wwwroot\sample-data\weather.json
+G:\users\kyawe\asp_net_core\ToDo\ToDo\bin\Debug\net6.0\release\wwwroot\_framework\blazor.boot.json

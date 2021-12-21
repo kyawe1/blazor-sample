@@ -1,0 +1,56 @@
+﻿@page "/todos"
+@inject HttpClient client
+@inject ToDoStore store
+@using ToDo.Models
+
+<PageTitle>ToDos</PageTitle>
+
+<ToDoAdd onsubmit=@onsubmit></ToDoAdd>
+
+@foreach (var i in store.getStore())
+{
+    <ShowToDos Delete=@Delete i=@i></ShowToDos>
+}
+
+
+
+@code {
+    [Parameter]
+    public ToDoViewModel[]? b { set; get; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        if (store.Count()==0)
+        {
+            HttpResponseMessage m = await client.GetAsync("https://jsonplaceholder.typicode.com/todos/");
+            try
+            {
+                m.EnsureSuccessStatusCode();
+                var s = await m.Content.ReadAsStringAsync();
+                b = JsonSerializer.Deserialize<ToDoViewModel[]>(s);
+                store.Add(b[0]);
+                Console.WriteLine(s);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+
+    }
+    public void Delete(ToDoViewModel i)
+    {
+        store.Remove(i);
+    }
+    public void onsubmit(EditContext editContext)
+    {
+        if (editContext.Validate())
+        {
+            var q=(ToDoViewModel)editContext.Model;
+            store.Add(q);
+        }
+        
+    }
+
+}

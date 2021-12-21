@@ -1,0 +1,22 @@
+﻿@using ToDo.Models
+<PageTitle>To Do Add</PageTitle>
+<EditForm Model=@todo OnSubmit=@onsubmit>
+    <div>
+    <label for='title' class='form-label'>Title</label>
+    <InputText @bind-Value=todo.title class='form-control' DisplayName="Title"></InputText>
+    </div>
+    <div class='m-2'>
+    <InputCheckbox @bind-Value=todo.completed class='form-check-input'></InputCheckbox><label for='compeleted' class='form-chceck-label'> Compeleted </label>
+    </div>
+    <div class='m-auto w-100 m-block'>
+    <input type='submit' name="ok" value="submit" class='btn btn-primary' />
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public ToDoViewModel todo { set; get; } = new ToDoViewModel();
+    [Parameter]
+    public EventCallback<EditContext> onsubmit{ set; get; }
+
+}

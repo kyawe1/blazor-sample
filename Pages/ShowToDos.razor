@@ -1,0 +1,29 @@
+﻿@using ToDo.Models
+<div class="p-2 m-2 rounded shadow-sm">
+    <div class='display-5 p-2 m-2'>
+        @i.title
+    </div>
+    @if (@i.completed == true)
+    {
+        <div class="ms-2">
+            <i class="bi bi-check2 text-success"></i> Comepleted
+        </div>
+    }
+    else
+    {
+        <div class="ms-2">
+            <i class="bi bi-x text-danger"></i> Not Comepleted
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public ToDoViewModel i { set; get; }
+    [Parameter]
+    public EventCallback<ToDoViewModel> Delete { set; get; }
+    public void Remove(MouseEventArgs e)
+    {
+        Delete.InvokeAsync(i);
+    }
+}

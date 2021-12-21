@@ -1,0 +1,1 @@
+<h1> Thats blazor Sample With sample api no virtualize after that we will deploy on iss</h1>

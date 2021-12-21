@@ -21,8 +21,7 @@
 
 
 @code {
-    [Parameter]
-    public ToDoViewModel[]? b { set; get; }
+    
 
     
     public void Delete(ToDoViewModel i)
@@ -33,8 +32,13 @@
     {
         if (editContext.Validate())
         {
+            
             var q=(ToDoViewModel)editContext.Model;
-            store.Add(q);
+            var a=new ToDoViewModel(){
+                title=q.title,
+                completed=q.completed
+            };
+            store.Add(a);
         }
         
     }
